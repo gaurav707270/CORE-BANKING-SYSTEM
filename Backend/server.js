@@ -22,6 +22,7 @@ import connectToDB from "./config/db.js";
 
 const PORT = process.env.PORT || 3000;
 
+
 ///function call ===> config => db.js => one function create (ConnectToDB)  => that is caling 
 //Ye function call hua.
 //Iske andar MongoDB connect hota hai.
