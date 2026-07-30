@@ -5,7 +5,7 @@ const connectToDB = async () => {
     await mongoose.connect(process.env.MONGO_URI);//MONGO_URI that is come for .env file for url 
     console.log("MongoDB Connected Successfully !!");
   } catch (err) {
-    console.error("Error connecting to MongoDB !!", err.message);
+    console.log("Error connecting to MongoDB !!", err.message);
     process.exit(1);
   }
 };
