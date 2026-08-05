@@ -6,5 +6,4 @@ const router = express.Router();
 //POST /api / auth/ register 
 router.post("/register",userRegisterController)// iss api per usser apna account ccreate kar sakta hai
 
-
 export default router;
