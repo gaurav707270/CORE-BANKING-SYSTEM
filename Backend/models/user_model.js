@@ -32,7 +32,7 @@ const userSchema = new mongoose.Schema(
 );
 
 //password hasse
-//ye password ko hase kar dega usser ka real password dalne per
+//ye password ko hase kar dega usser ka real password dalne per6
 
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
