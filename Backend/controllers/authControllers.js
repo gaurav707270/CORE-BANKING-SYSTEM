@@ -1,7 +1,7 @@
 import userModel from "../models/user_model.js";
 
 const userRegisterController = async (req, res) => {
-  // try {
+  try {
     const { name, email, password } = req.body;
 
     // if (!name || !email || !password) {
